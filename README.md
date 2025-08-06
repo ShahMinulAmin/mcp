@@ -3,14 +3,14 @@
 
 ## Prerequisite
 - JDK version 21
-- Docker environment to run as a a stand-alone server
+- Docker environment to run as a stand-alone server
 
 ## To run locally
 - Build the project
   ```
   mvn clean package -DskipTests
   ```
-- A jar file `mcp-0.0.1-SNAPSHOT.jar` will be generated in targer directory
+- A jar file `mcp-0.0.1-SNAPSHOT.jar` will be generated in target directory
 - Configure host application by adding java command with arguments
   ```
     "shah-mcp": {
