@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: mcp
+  main:
+    banner-mode:
+      off
+
+  ai:
+    mcp:
+      server:
+        enabled: true
+        stdio: false
+        name: shah-mcp
+        version: 0.0.1
+        resource-change-notification: true
+        tool-change-notification: true
+        prompt-change-notification: true
+        sse-endpoint: /sse
+        sse-message-endpoint: /mcp/message
+        type: sync
+        capabilities:
+          completion: true
+          prompt: true
+          resource: true
+          tool: true
+
+logging:
+  level:
+    io.modelcontextprotocol: TRACE
+    org.springframework.ai.mcp: TRACE
+
+server:
+  port:
+    8080

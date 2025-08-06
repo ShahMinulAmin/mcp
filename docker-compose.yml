@@ -1,0 +1,12 @@
+services:
+  spring-dockerized-app:
+    build:
+      context: .  # Directory to build Docker image from.
+      dockerfile: Dockerfile  # Dockerfile to use for building the image.
+    ports:
+      - 8080:8080  # Maps port 8080 in the container to port 8080 on the host.
+    environment:
+      - SPRING_CONFIG_LOCATION=file:/app/application.yml  # Location of application properties.
+    volumes:
+      - ./src/main/resources/application.yml:/app/application.yml
+
