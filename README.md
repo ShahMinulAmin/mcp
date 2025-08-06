@@ -1,3 +1,6 @@
+## Acknowledgement
+- This project is inspired from [GitHub repo](https://github.com/spring-projects/spring-ai-examples/tree/main/model-context-protocol/)
+
 ## Prerequisite
 - JDK version 21
 - Docker environment to run as a a stand-alone server
