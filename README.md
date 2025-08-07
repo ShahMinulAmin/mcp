@@ -1,6 +1,3 @@
-## Acknowledgement
-- This project is inspired from [GitHub repo](https://github.com/spring-projects/spring-ai-examples/tree/main/model-context-protocol/)
-
 ## Prerequisite
 - JDK version 21
 - Docker environment to run as a stand-alone server
@@ -28,3 +25,10 @@
   ```
   docker-compose up
   ```
+
+## Acknowledgement
+- This project is inspired from [GitHub repo](https://github.com/spring-projects/spring-ai-examples/tree/main/model-context-protocol/)
+
+## Resources
+- [modelcontextprotocol](https://modelcontextprotocol.io/docs/learn/architecture)
+- [json-rpc](https://docs.moralis.com/how-json-rpc-works)
