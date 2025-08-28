@@ -15,13 +15,13 @@
     "args": [
       "-Dspring.profiles.active=stdio",
       "-jar",
-      "/Users/shah/Documents/projects/spring-ai/mcp/target/mcp-0.0.1-SNAPSHOT.jar"
+      "..../spring-ai/mcp/target/mcp-0.0.1-SNAPSHOT.jar"
     ]
   }
   ```
 
 ## To run as a stand-alone server
-- Docker compose commnad will build the docker image and start running as a stand-alone server
+- Docker compose command will build the docker image and start running as a stand-alone server
   ```
   docker-compose up
   ```
